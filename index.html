@@ -14,10 +14,13 @@
 				<span class="text">Tip %</span>
 				<input id="percentbox" type="number" name="percent" placeholder="enter tip%">
 			</div>
+			<div id="guest" class="text"># Of Guest <input id="party" type="number" placeholder="optional"></div>
 			<button id="btn" onclick="calculate()"> <i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i></button>
-			<button id="btnClear" onclick="btnClear()"> <i class="fa fa-ban fa-3x" aria-hidden="true"></i></button>
+			<button id="btnClear" onclick="btnClear()"> <i class="fa fa-refresh fa-3x" aria-hidden="true"></i></button>
+			<div id="totalAmt" class="text"></div>
 			<div id="tipPercent" class="text"></div>
-			<div class="text" id="totalAmt"></div></div>
-			<script type="text/javascript" src="js/calc.js"></script>
-		</body>
-	</html>
+			<div id="partyGuest" class="text"></div>
+		</div>
+		<script type="text/javascript" src="js/calc.js"></script>
+	</body>
+</html>
