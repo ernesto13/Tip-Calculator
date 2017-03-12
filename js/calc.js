@@ -17,7 +17,7 @@ alert("Please input bill amount");
 alert("Input amount of tip percentage");
 } else document.getElementById("totalAmt").innerHTML = "";
 document.getElementById("tipPercent").innerHTML = "Tip Amount " + "<br>" + "<br> $" + parseFloat(totalTip).toFixed(2); //for tip amount
-document.getElementById("totalAmt").innerHTML = "Total Bill amount" + "<br>" + "<br> $" + parseFloat(totalAmount).toFixed(2); //for total
+document.getElementById("totalAmt").innerHTML = "Total Bill Amount" + "<br>" + "<br> $" + parseFloat(totalAmount).toFixed(2); //for total
 }
 function btnClear() {
 document.getElementById("totalbill").value = " ";
